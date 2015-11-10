@@ -12,6 +12,7 @@ This class is used to create 'assets' for an 'asset pipeline', similar to the as
 ## Usage
 
 javac GenerateAssets.java
+
 java GenerateAssets
 
 ## License
