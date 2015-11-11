@@ -7,7 +7,7 @@ This class is used to create 'assets' for an 'asset pipeline', similar to the as
 3. Process image files: calculate MD5 hashes, fingerprint, move to public/assets/img
 4. Concatenate Javascript files, minimize, fingerprint and move to public/assets/js
 5. Concatenate css files, minimize, fingerprint and move to public/assets/css
-6. Write out public/assets/assets.txt.
+6. Write out assets.txt.
 
 ## Usage
 

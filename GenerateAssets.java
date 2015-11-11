@@ -11,7 +11,7 @@
  * 3. Process image files: calculate MD5 hashes, move to public/assets/img
  * 4. Concatenate Javascript files, minimize, fingerprint and move to public/assets/js
  * 5. Concatenate css files, minimize, fingerprint and move to public/assets/css
- * 6. Write out public/assets/assets.txt.
+ * 6. Write out assets/assets.txt.
  *
  * Requirements: Java 1.7
  *
@@ -37,7 +37,7 @@ public class GenerateAssets {
 
    static String sourceFolder = "resources/assets";
    static String destinationFolder = "resources/public/assets";
-   static String assetsFile = "resources/public/assets/assets.txt";
+   static String assetsFile = "resources/assets/assets.txt";
 
 
    static ArrayList<File> fileList = new ArrayList<File>();
@@ -108,7 +108,7 @@ public class GenerateAssets {
    /*
     * writeAssetsFile
     *
-    * Write out the filnameMap to the file 'assets.txt' in public/assets.
+    * Write out the filnameMap to the file 'assets.txt' in resources/assets.
     * This files maps original filenames to fingerprinted filenames.
     *
     * The filename map collects the mappings of old to new filenames.
